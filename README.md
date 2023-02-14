@@ -5,12 +5,12 @@ yq is written in go - so you can download a dependency free binary for your plat
 ### GitHub Action
 ```
   - name: Set foobar to cool
-    uses: mikefarah/yq@master
+    uses: nocnoc-thailand/yq@v1
     with:
       cmd: yq -i '.foo.bar = "cool"' 'config.yml'
   - name: Get an entry with a variable that might contain dots or spaces
     id: get_username
-    uses: mikefarah/yq@master
+    uses: nocnoc-thailand/yq@v1
     with:
       cmd: yq '.all.children.["${{ matrix.ip_address }}"].username' ops/inventories/production.yml
   - name: Reuse a variable obtained in another step
