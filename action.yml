@@ -1,8 +1,8 @@
-name: 'yq - portable yaml processor'
+name: 'yq-ntd - portable yaml processor'
 description: 'create, read, update, delete, merge, validate and do more with yaml'
 branding:
-  icon: command
-  color: gray-dark
+  icon: arrow-up-circle
+  color: blue
 inputs:
   cmd:
     description: 'The Command which should be run'
